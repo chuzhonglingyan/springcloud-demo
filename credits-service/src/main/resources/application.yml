@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /
+  port: 7001
+spring:
+  application:
+    name: credits-server
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:5060/eureka
+

@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /
+  port: 7004
+spring:
+  application:
+    name: wms-server
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:5060/eureka
+
